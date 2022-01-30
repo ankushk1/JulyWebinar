@@ -1,0 +1,30 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: #f16a48;
+  grid-gap:10px 10px;
+  padding: 10px;
+  height: 100vh;
+  justify-content: space-around;
+  align-content: start;
+  grid-template-areas: 'header header header header'
+    'sidebar sidebar main main'
+  ;
+}
+
+.grid-item {
+  background-color: rgba(230, 228, 228, 0.732);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item-1{
+  grid-column: 1/4;
+  grid-area: header;
+}
+
+.grid-item-2{
+  grid-area: sidebar;
+}
