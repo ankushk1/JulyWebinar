@@ -8,7 +8,7 @@
   justify-content: space-around;
   align-content: start;
   grid-template-areas: 'header header header header'
-    'sidebar sidebar main main'
+    'sidebar sidebar main main main'
   ;
 }
 
